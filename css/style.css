@@ -169,11 +169,11 @@ header nav ul li a:hover{
     width: 348px;
     height: 408px;
     pointer-events: none;
-    background: url(../src/bulb_off.jpg);
+    background: url('https://firebasestorage.googleapis.com/v0/b/pasteleria-marti.appspot.com/o/bulb_off.jpg?alt=media&token=36494fbc-39b9-4fb4-b8c1-e42839231ee7');
     transition: 0.5s;
 }
 .entrance label input:checked ~ .bulb{
-    background: url(../src/bulb_on.jpg);
+    background: url('https://firebasestorage.googleapis.com/v0/b/pasteleria-marti.appspot.com/o/bulb_on.jpg?alt=media&token=8839b0e2-7b2a-40e0-a850-4461e7ec21b0');
 } 
 .title-animation span, .subtitle-animation{
     animation: animate 5s linear;
