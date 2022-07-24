@@ -1,0 +1,56 @@
+.entrance{
+    display:grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    height: 600px;
+}
+.entrance label{
+    top: -150px;
+    align-self: center;
+}
+.title-container{
+    padding-bottom: 0;
+}
+header nav ul li a{
+    font-size: 1rem;
+}
+.about-container .about{
+    height: 450px;
+}
+.about-container .space{
+    height: 40px;
+    width: 100vw;
+    background-color: #FFFFFF;
+
+}
+.about-container .skills-container .skills{ 
+    margin: -100px 0 0 0;
+}
+.contact-section .card-container .form{
+    /* grid-template-columns: 1fr 1fr; */
+    grid-area: form;
+    /* gap: 15px 15px; */
+
+}
+.contact-section .card-container .form .inputs-container{
+    grid-template-columns: 1fr 1fr;
+    gap: 2px 15px;
+    display: grid;
+}
+.contact-section .card-container .form .inputs-container div:last-child{
+    grid-column: span 2;
+}
+.contact-section .card-container .contact-info{
+    grid-area: contact-info;
+    padding: 30px 4vw;
+
+}
+.contact-section .card-container{
+    display: grid;
+    max-width: 1294px;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-areas: 'contact-info  form';
+}
+.contact-section{
+    padding: 40px 30px;
+}

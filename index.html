@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="css/desktop.css" media="(min-width: 1024px)">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <section>
+        <header>
+            <nav>
+
+                <ul class="menu">
+                    <li><a href="#home" class="menu-i">Home</a></li>
+                    <li><a href="#about" class="menu-i">About</a></li>
+                    <li><a href="#proyects" class="menu-i">Proyects</a></li>
+                    <li><a href="#contact" class="menu-i">Contact</a></li>
+                </ul>
+
+                <div class="logo">
+                    Web Developer
+                </div>
+                <div class="menu-btn">
+                    <div class="menu-btn__burger"></div>
+                </div>
+            </nav>
+            <div class="hero">
+            </div>
+        </header>
+    </section>
+    <section class="entrance" id="home">
+        <label>
+            <input type="checkbox" id="checkbox" onclick="validateAnimation()">
+            <span>
+                <ion-icon name="bulb-outline"></ion-icon>
+            </span>
+            <div class="bulb"></div>
+        </label>
+        <article class="title-container">
+            <h2 id="title">
+                <span>Hi</span>
+                <span>I am</span>
+                <span>Victor</span>
+            </h2>
+            <p id="subtitle">console.info('Self-taught passionate for technology');</p>
+        </article>
+    </section>
+
+    <section class="about-container" id="about">
+        <article class="about">
+            <h3>about</h3>
+            <div>
+                <p>My name is Victor Matzar, I specialise in creating beautiful websites, using the best practice
+                    accesibility and the latest W3C web standards guidelines. All my sites are lovingly hand coded.
+                    I code my websites using Angular, Rxjs, Typescript, Javascript and css's preprocessors like Sass. I
+                    live
+                    in Guatemala City with my family, I love to study and I love the technology.
+                </p>
+            </div>
+            <div class="download-container">
+                <ion-icon name="cloud-download-outline"></ion-icon>
+                <a href="src/Cv Victor Matzar.pdf" download="Cv-Victor-Matzar">Download CV</a>
+            </div>
+        </article>
+        <article class="skills-container">
+
+            <div class="skills">
+                <div class="box">
+                    <img src="src/angular-adobe-express-1.png" alt="">
+                    <img class="hover-img" src="src/angular-adobe-express.png" alt="">
+                    <p class="first-text">Angular,</p>
+                </div>
+                <div class="box">
+                    <img src="src/rxjs (1).png" alt="">
+                    <img class="hover-img" src="src/rxjs.png" alt="">
+                    <p>RXJs,</p>
+                </div>
+                <div class="box">
+                    <img src="src/postgresql-adobe-express.png" alt="">
+                    <img class="hover-img" src="src/Postgresql.png" alt="">
+                    <p>Postgresql,</p>
+                </div>
+                <div class="box">
+                    <img src="src/firebase-adobe-express (1).png" alt="">
+                    <img class="hover-img" src="src/firebase-adobe-express.png" alt="">
+                    <p>Firebase,</p>
+                </div>
+                <div class="box">
+                    <img src="src/typescript-logo.png" alt="">
+                    <img class="hover-img" src="src/typescript-logoblue.png" alt="">
+                    <p>Typescript,</p>
+                </div>
+                <div class="box">
+                    <img src="src/javascript-logoyellow-adobe-express.png" alt="">
+                    <img class="hover-img" src="src/JavaScript-logoyellow.png" alt="">
+                    <p>Javascript,</p>
+                </div>
+                <div class="box">
+                    <img src="src/oracledb.png" alt="">
+                    <img class="hover-img" src="src/oraclered.png" alt="">
+                    <p>Oracle DB,</p>
+                </div>
+                <div class="box">
+                    <img src="src/sass-adobe-express.png" alt="">
+                    <img class="hover-img" src="src/sass.png" alt="">
+                    <p class="last-text">Sass</p>
+                </div>
+            </div>
+
+            <section class="swiper mySwiper" id="proyects">
+                <h3>Recent Proyects ( );</h3>
+                <div class="container swiper-wrapper">
+
+
+                    <div class="card swiper-slide">
+                        <div class="content">
+                            <div class="imgBx">
+                                <img src="../portfolio/src/proyectos/pasteleriaMarti.png" alt="">
+                            </div>
+                            <div class="contentBx">
+                                <h4>Pastelería Martí<br>
+                                    <span>Order your favorite cake online and know everything we offer</span>
+                                </h4>
+                            </div>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i:1">
+                                <a href="https://pasteleria-marti.web.app/" target="_blank">
+                                    <i class="fa fa-regular fa-eye"></i> Ver
+                                </a>
+                            </li>
+                            <li style="--i:2">
+                                <a href="https://github.com/VMatzar/Pasteleria-Marti" target="_blank">
+                                    <i class="fa fa-code-branch"></i> Código
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="content">
+                            <div class="imgBx">
+                                <img src="../portfolio/src/proyectos/JavascriptCurso.png" alt="">
+                            </div>
+                            <div class="contentBx">
+                                <h4>Javascript Workshops<br>
+                                    <span>Use statistical and mathematical tools for your tasks</span>
+                                </h4>
+                            </div>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i:1">
+                                <a href="https://vmatzar.github.io/Practico-Javascript/" target="_blank">
+                                    <i class="fa fa-regular fa-eye"></i> Ver
+                                </a>
+                            </li>
+                            <li style="--i:2">
+                                <a href="https://github.com/VMatzar/Practico-Javascript" target="_blank">
+                                    <i class="fa fa-code-branch"></i> Código
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="content">
+                            <div class="imgBx">
+                                <img src="../portfolio/src/proyectos/huddler.png" alt="">
+                            </div>
+                            <div class="contentBx">
+                                <h4>Huddler<br>
+                                    <span> Create connections with your users as you engage in genuine
+                                        discussion.</span>
+                                </h4>
+                            </div>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i:1">
+                                <a href="https://vmatzar.github.io/Huddler/" target="_blank">
+                                    <i class="fa fa-regular fa-eye"></i> Ver
+                                </a>
+                            </li>
+                            <li style="--i:2">
+                                <a href="https://github.com/VMatzar/Huddler" target="_blank">
+                                    <i class="fa fa-code-branch"></i> Código
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="content">
+                            <div class="imgBx">
+                                <img src="../portfolio/src/proyectos/magazine.png" alt="">
+                            </div>
+                            <div class="contentBx">
+                                <h4>Nature Magazine<br>
+                                    <span>Discover wild nature - Mazagine Cover</span>
+                                </h4>
+                            </div>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i:1">
+                                <a href="https://vmatzar.github.io/Magazine/" target="_blank">
+                                    <i class="fa fa-regular fa-eye"></i> Ver
+                                </a>
+                            </li>
+                            <li style="--i:2">
+                                <a href="https://github.com/VMatzar/Magazine" target="_blank">
+                                    <i class="fa fa-code-branch"></i> Código
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="content">
+                            <div class="imgBx">
+                                <img src="../portfolio/src/proyectos/googleClon.png" alt="">
+                            </div>
+                            <div class="contentBx">
+                                <h4>Google Clon<br>
+                                    <span>Inspired by the Google home page</span>
+                                </h4>
+                            </div>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i:1">
+                                <a href="https://vmatzar.github.io/Clon-de-Google/" target="_blank">
+                                    <i class="fa fa-regular fa-eye"></i> Ver
+                                </a>
+                            </li>
+                            <li style="--i:2">
+                                <a href="https://github.com/VMatzar/Clon-de-Google" target="_blank">
+                                    <i class="fa fa-code-branch"></i> Código
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="content">
+                            <div class="imgBx">
+                                <img src="../portfolio/src/proyectos/batabit.png" alt="">
+                            </div>
+                            <div class="contentBx">
+                                <h4>Batatabit<br>
+                                    <span>Dedicated to Cryptocurrency Exchange</span>
+                                </h4>
+                            </div>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i:1">
+                                <a href="https://vmatzar.github.io/BataBit/" target="_blank">
+                                    <i class="fa fa-regular fa-eye"></i> Ver
+                                </a>
+                            </li>
+                            <li style="--i:2">
+                                <a href="https://github.com/VMatzar/BataBit" target="_blank">
+                                    <i class="fa fa-code-branch"></i> Código
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="content">
+                            <div class="imgBx">
+                                <img src="../portfolio/src/proyectos/platzi.png" alt="">
+                            </div>
+                            <div class="contentBx">
+                                <h4>Platzi Store<br>
+                                    <span>Shop platzi's merchandise on the store online</span>
+                                </h4>
+                            </div>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i:1">
+                                <a href="https://platzishop.tk" target="_blank">
+                                    <i class="fa fa-regular fa-eye"></i> Ver
+                                </a>
+                            </li>
+                            <li style="--i:2">
+                                <a href="https://platzishop.tk" target="_blank">
+                                    <i class="fa fa-code-branch"></i> Código
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </section>
+        </article>
+    </section>
+
+
+    <section class="contact-section" id="contact">
+        <h3 class="contact--title"> { Contact me }; </h3>
+        <article class="card-container">
+            <form class="form">
+                <h3>Send me a message</h3>
+                <div class="inputs-container">
+                    <div>
+                        <label for="name">Name: </label>
+                        <input type="text" id="name">
+                    </div>
+                    <div>
+                        <label for="subject">Subject: </label>
+                        <input type="text" id="subject">
+                    </div>
+                    <div>
+                        <label for="emailAddress">Email Address:</label>
+                        <input type="email" id="emailAddress">
+                    </div>
+
+                    <div>
+                        <label for="phoneNumber">Mobile Number:</label>
+                        <input type="number" id="phoneNumber">
+                    </div>
+
+
+                    <div>
+                        <label for="message">Write your message here: </label>
+                        <textarea type="text" id="message"></textarea>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button type="button" class="form-button" onclick="sendEmail()"><span>Send Message</span></button>
+                </div>
+            </form>
+            <div class="contact-info">
+                <h3>Contact Info</h3>
+                <div class="contact__detail">
+                    <span><i class="fa fa-solid fa-map-pin"></i></span>
+                    <p>Zona 6 de Mixco, Ciudad de Guatemala, Guatemala 01057</p>
+                </div>
+                <div class="contact__detail">
+                    <span><i class="fa fa-solid fa-envelope"></i></span>
+                    <p>elmatzar123@gmail.com</p>
+                </div>
+                <div class="contact__detail">
+                    <span><i class="fa fa-solid fa-phone"></i></span>
+                    <p>4837-3175</p>
+                </div>
+                <div class="contact__detail">
+                    <a target="_blank" href="https://wa.me/50248373175">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/ingsistemasvictormatzar/">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </div>
+            </div>
+
+
+        </article>
+    </section>
+    <footer>
+        <p>"The difference between winning and losing is most often not quitting"</p>
+        <p>Walt Disney</p>
+        <p>Handcrafted by me &#169; <strong>Victor Matzar</strong> 2022</p>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/6fd62426bb.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
