@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+
+}
 .entrance{
     height: 100vh;
 }

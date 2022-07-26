@@ -1,8 +1,13 @@
+body{
+    overflow-x: hidden;
+
+}
 .entrance{
     display:grid;
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
     height: 600px;
+
 }
 .entrance label{
     top: -150px;
