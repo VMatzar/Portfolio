@@ -24,9 +24,18 @@ function validateAnimation() {
 
   }
 }
+// function clickMenu(){
+//   this.openMenu = this.openMenu ? false : true
+// }
+
 const menu = document.querySelector('.menu');
 const menuBtn = document.querySelector('.menu-btn');
 let menuOpen = false;
+function closeMenu(){
+  menuBtn.classList.remove('open');
+  menuOpen = false;
+  menu.classList.toggle('active');
+}
 menuBtn.addEventListener('click', () => {
   if (!menuOpen) {
     menuBtn.classList.add('open');
