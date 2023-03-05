@@ -87,7 +87,7 @@ function sendEmail() {
     _template: 'table'
   }
 
-  fetch("https://formsubmit.co/ajax/elmatzar123@gmail.com", {
+  fetch("https://formsubmit.co/ajax/vmatzarsay@gmail.com", {
     method: "POST",
     headers: {
       'Content-Type': 'application/json',
